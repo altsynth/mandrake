@@ -24,7 +24,8 @@ body    {background-color:#F15B79}
 img      {width: 487px;
       height: 600px;
       padding: 5px;}
-  .email    {background-color: #B2A9A7;}
+.email    {background-color: #FD9AD2;}
+  .confirm  {background-color: #FD9AD2;}
 aside   {text-align:center;
           border:2px solid;
           border-width: medium;
