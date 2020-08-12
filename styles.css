@@ -7,23 +7,21 @@ body    {background-color:#F15B79}
       border:5px solid;
       border-color:#FD7A00;
       border-width: thick;
-      padding-right: auto;
       text-align: center;
       background-color: #F292FD;}
 
-.nazhmi  {text-align: center;
-    align: center;}
-
-.pluses   {
+.anchor  {text-align:center;}
+.slohan   {
           text-align: center;
           word-spacing: 420px;
           font-size: 20px;
           font-family: monospace;
           font-weight: bold;
-        margin-top: 10px;}
+          margin: auto;}
 img      {width: 487px;
       height: 600px;
-      padding: 5px;}
+      padding: 5px;
+        box-shadow: 0 0 15px 0 rgba(1,1,1,1);}
 .email    {background-color: #FD9AD2;
   font: 12px/1.5 Helvetica, Arial, sans-serif;
   border: 2px solid;
@@ -31,7 +29,8 @@ img      {width: 487px;
 .confirm  {background-color: #FD9AD2;
     font: 12px/1.5 Helvetica, Arial, sans-serif;
     border: 2px solid;
-    overflow: visible;}
+    overflow: visible;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,1);}
 aside   {text-align:center;
           border:2px solid;
           border-width: medium;
