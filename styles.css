@@ -1,4 +1,17 @@
 body    {background-color:#F15B79}
+.top-menu {position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background: #3e4551;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    opacity: .95;}
+li {display: inline;}
+.social {
+      width: 20px;
+      height: 25px;
+      padding: 5px;}
 .altsynth {color: #620623;
   border-radius: 10px;
       font-weight: lighter;
@@ -8,17 +21,17 @@ body    {background-color:#F15B79}
       border-color:#FD7A00;
       border-width: thick;
       text-align: center;
-      background-color: #F292FD;}
+      background-color: #FD795B;}
 
 .anchor  {text-align:center;}
-.slohan   {
+.slohan   {position: static;
           text-align: center;
           word-spacing: 420px;
           font-size: 20px;
           font-family: monospace;
           font-weight: bold;
           margin: auto;}
-img      {width: 487px;
+.mainimages      {width: 487px;
       height: 600px;
       padding: 5px;
         box-shadow: 0 0 15px 0 rgba(1,1,1,1);}
