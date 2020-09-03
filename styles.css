@@ -14,7 +14,7 @@ li {display: inline;}
 .social {
       width: 20px;
       height: 25px;
-      padding: 5px;}
+      margin: 5px;}
 .altsynth {
       top: 0;
       right: 0;
@@ -43,6 +43,8 @@ li {display: inline;}
       height: 600px;
       padding: 5px;
         box-shadow: 0 0 15px 0 rgba(1,1,1,1);}
+  .bottom {text-align: center;
+            font-style: oblique;}
 .email    {background-color: #FD9AD2;
   font: 12px/1.5 Helvetica, Arial, sans-serif;
   border: 2px solid;
